@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Мультиварка нового покоління - Легко готуй, швидко насолоджуйся!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #ff5722;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .cta {
+            background-color: #ff9800;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+        .product-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .product-info img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product-details {
+            width: 48%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-details h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 2em;
+            color: #ff5722;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #ff5722;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.5em;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #e64a19;
+        }
+
+        .testimonials {
+            margin-top: 40px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonials h3 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .testimonial {
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Мультиварка нового покоління: Легко готуй, швидко насолоджуйся!</h1>
+        <p>Готуйте смачні страви без зайвих зусиль. Мультиварка з безліччю функцій для кожного дому!</p>
+    </header>
+
+    <div class="container">
+        <div class="product-info">
+            <div class="product-details">
+                <h2>Чому вибрати нашу мультиварку?</h2>
+                <div class="features">
+                    <ul>
+                        <li>🥘 10 автоматичних програм для різних страв</li>
+                        <li>⏱️ Швидкість і зручність, готуйте без зайвих зусиль</li>
+                        <li>🥒 Збереження вітамінів та корисних властивостей</li>
+                        <li>💪 Надійність і довговічність</li>
+                    </ul>
+                </div>
+                <p class="price">Ціна: 2999 грн</p>
+                <a href="#buy" class="cta-button">Купити зараз</a>
+            </div>
+            <div class="product-image">
+                <img src="https://via.placeholder.com/500x400" alt="Мультиварка" />
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <h3>Відгуки наших клієнтів</h3>
+            <div class="testimonial">
+                <p>"Ця мультиварка просто рятує! Я почала готувати швидше і простіше, і страви виходять смачнішими!" — Оксана, Київ</p>
+            </div>
+            <div class="testimonial">
+                <p>"Ідеальна для сім'ї! Вона заміняє кілька кухонних приладів. Легко готувати навіть складні страви." — Андрій, Львів</p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h2>Готуйте легко — отримуйте більше часу для себе!</h2>
+            <a href="#buy" class="cta-button">Замовити зараз</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Мультиварка. Усі права захищені.</p>
+    </footer>
+</body>
+</html>
